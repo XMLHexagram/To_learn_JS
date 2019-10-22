@@ -1,0 +1,55 @@
+{
+    "status": "ok",
+    "lang": "zh_CN",
+    "unit": "metric",
+    "server_time": 1571716805,
+    "location": [
+        25.1552,
+        121.6544
+    ],
+    "api_status": "active",
+    "tzshift": 28800,
+    "api_version": "v2.2",
+    "result": {
+        "status": "ok",
+        "o3": 130.54,
+        "co": 0.3,
+        "temperature": 25.16,
+        "pm10": 67,
+        "skycon": "CLEAR_DAY",
+        "cloudrate": 0,
+        "precipitation": {
+            "nearest": {
+                "status": "ok",
+                "distance": 396.34,
+                "intensity": 0.1875
+            },
+            "local": {
+                "status": "ok",
+                "intensity": 0,
+                "datasource": "adar"
+            }
+        },
+        "dswrf": 669,
+        "visibility": 16,
+        "humidity": 0.57,
+        "so2": 6.21,
+        "ultraviolet": {
+            "index": 9,
+            "desc": "很强"
+        },
+        "pres": 99615.22,
+        "aqi": 59,
+        "pm25": 14,
+        "no2": 12.84,
+        "apparent_temperature": 22.4,
+        "comfort": {
+            "index": 5,
+            "desc": "舒适"
+        },
+        "wind": {
+            "direction": 40,
+            "speed": 25.92
+        }
+    }
+}
